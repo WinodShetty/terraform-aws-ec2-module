@@ -17,5 +17,7 @@ variable "instance_type" {
 
 # optional
 variable "tags" {
-    default = {}
+    default = {
+        Purpose = "terraform-practice"
+    }
 }
