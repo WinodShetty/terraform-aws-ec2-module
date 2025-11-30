@@ -14,3 +14,11 @@ output "ami_id" {
 output "vpc_security_group_ids" {
     value = vpc_security_group_ids
 }
+
+output "vpc_security_group_ids" {
+    value = vpc_security_group_ids
+}
+
+output "tags" {
+    value = aws_instance.vinod_ec2.tags
+}
