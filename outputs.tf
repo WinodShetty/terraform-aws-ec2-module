@@ -8955,6 +8955,16 @@ output "private_ip" {
 output "ami_id" {
     value = aws_instance.vinod_ec2.ami_id
 }
+output "private_ip" {
+    value = aws_instance.vinod_ec2.private_ip
+}
+
+output "ami_id" {
+    value = aws_instance.vinod_ec2.ami_id
+}
+
+
+
 
 
 
