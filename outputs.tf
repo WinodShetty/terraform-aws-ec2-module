@@ -9066,3 +9066,12 @@ output "tags" {
     
 }
 
+output "tags" {
+    value = aws_instance.vinod_ec2.tags
+}output "public_ip" {
+    value = aws_instance.vinod_ec2.public_ip
+    
+}
+output "vpc_security_group_ids" {
+    value = vpc_security_group_ids
+}
